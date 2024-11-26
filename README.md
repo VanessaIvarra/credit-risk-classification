@@ -37,4 +37,4 @@ Based on the results described above, I find that:
 
 * It looks like that for any lending service company or credit grantor, the correct identification of a high-risk loan is much more important as it reduces the probabilty of defaultors by placing importance on correct analysis of their creditworthiness, thereby impacting the overall profitability of the company. The oversampled model does a way better job in correct classification of the high-risk loans(99%) when they were actually positive by catching the incorrect labelling of high-risk loans as healthy.
 
-My recommendation would be to see what methods can be use with this data set first before resulting to this one. The reason being for this is because if there is an imbalance in the data then that could really affect the outcome of your data. 
+My recommendation would be to see what other methods can be use with this data set first before resulting to this one. The reason being for this is because if there is an imbalance in the data then that could really affect the outcome of your data. 
