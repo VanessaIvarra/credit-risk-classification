@@ -30,3 +30,9 @@ Below are the key results that can be drawn from the results computed by the Log
   * This model has a precision score of 100% for the healthy loans and 84% for the high-risk loans. This again can be attributed to the imbalance in the data. The precision scores imply that the healthy loans were classified correctly as positive 100% of the times. However, for the high-risk loans, the classification was correct only 85% of the times.
 
   * This model has a recall score of 99% for the healthy loans and 91% for the high-risk loans. The scores imply that for all the instances where the loans were actually healthy, 99% of the times they were classified correctly. However, for all the instances where the loans were actually high-risk, they were classified correctly 91% of the times.
+
+## Summary
+
+Based on the results described above, I find that:
+
+* It looks like that for any lending service company or credit grantor, the correct identification of a high-risk loan is much more important as it reduces the probabilty of defaultors by placing importance on correct analysis of their creditworthiness, thereby impacting the overall profitability of the company. The oversampled model does a way better job in correct classification of the high-risk loans(99%) when they were actually positive by catching the incorrect labelling of high-risk loans as healthy.
