@@ -17,4 +17,3 @@ Below is a brief overview of the analysis performed for credit-risk-classificati
  - Make predictions on testing data labels by using the testing feature data and the fitted model.
  - Evaluate the model's performance by generating a confusion matrix and classification report.
 
-* First method used in this case is the `LogisticRegression` model on the original fitted data. As the data was highly overweighted towards one of the target variables (healthy loans), so `RandomOverSampler` was used to reduce the imbalances and LogisticRegression was then applied to the oversampled data.
